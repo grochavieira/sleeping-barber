@@ -153,7 +153,7 @@ void *threadBarbearia(void *arg)
             filaClientes.pop();
         }
 
-        cout << "\nBarbeiro terminou seu expediente...\n";
+        cout << "\nBarbeiro terminou seu expediente... \n";
 
         cout << "\nO barbeiro atendeu " << clientesAtendidos << " clientes\n";
 
@@ -190,6 +190,7 @@ void *threadBarbearia(void *arg)
                 entrouBarbearia = true;
             }
         }
+
         cout << endl
              << "Cliente " << valorThread << " foi embora..." << endl;
     }
